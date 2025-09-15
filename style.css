@@ -6,15 +6,30 @@ body {
       text-align: center;
     }
     header {
-      background:beige;
+      /* background:beige;
       height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       color: white;
-      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7); */
+      
+    height: 100vh; /* u5se 100vh instead of 100% for full screen */
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("https://t4.ftcdn.net/jpg/02/75/39/23/360_F_275392381_9upAWW5Rdsa4UE0CV6gRu2CwUETjzbKy.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #ececec;
+
     }
+.header img
+{
+    width: 100vh;
+    float:left;
+}
 header h1 {
       font-size: 3rem;
       margin: 0;
@@ -59,6 +74,12 @@ header h1 {
         height: 100%;
         width: 100%;
 
+    }
+    .menu-items video
+    {
+        
+        height: 100%;
+        width: 100%;
     }
     .menu-items li {
       font-size: 1.2rem;
